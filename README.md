@@ -1,7 +1,7 @@
 # AutoUpdate-BDS
-自动更新 BDS 到最新正式版本，备份地图、白名单、日志、权限名单和服务器配置文件。  
+一键更新 BDS 到最新正式版本，备份地图、白名单、日志、权限名单和服务器配置文件。  
 
-Automatically updates BDS to the latest official version, backs up maps, whitelists, logs, permission lists and server configuration files.
+One-click updates BDS to the latest official version, backs up maps, whitelists, logs, permission lists and server configuration files.
 
 # How to use
 首先，你需要切换到 root 用户，如果你是跟着我的[博客教程](https://blog.ltya.top/posts/Running-BDS-with-Box64.shtml)走的话，那就不用管。  
