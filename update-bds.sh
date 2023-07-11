@@ -15,6 +15,7 @@ echo "下载最新版本的 BDS……"
 
 wget -O BDS.zip https://minecraft.azureedge.net/bin-linux/bedrock-server-${LATEST_VERSION}.zip
 
+echo "正在解压最新版本的 BDS……"
 unzip -q -o BDS.zip && rm BDS.zip
 clear
 echo "恢复备份文件……"
