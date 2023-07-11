@@ -2,7 +2,7 @@
 clear
 echo "安装 jq"
 apt install jq -y
-echo "将白名单、日志、权限名单、服务器配置文件压缩到 backup.zip 并移动到上一个文件夹"
+echo "将地图、白名单、日志、权限名单、服务器配置文件压缩到 backup.zip 并移动到上一个文件夹"
 zip -o -r ../backup.zip allowlist.json Dedicated_Server.txt permissions.json server.properties worlds/
 echo "删除服务器目录下的所有文件……"
 rm -rf *
