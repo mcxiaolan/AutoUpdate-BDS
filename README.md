@@ -10,11 +10,12 @@ Automatically updates BDS to the latest official version, backs up maps, whiteli
 Firstly, you need to switch to the root user, if you are following my [blog tutorial](https://blog.ltya.top/posts/Running-BDS-with-Box64.shtml) then never mind.  
 Only Debian-based Linux is supported.
 
-运行：  
-Run:
+在 BDS 目录运行：  
+In the BDS directory run:
 ```
 wget -O update-bds.sh https://cdn.jsdelivr.net/gh/mcxiaolan/AutoUpdate-BDS/update-bds.sh && bash update-bds.sh
 ```
 
 # Special thanks
-[Bedrock-OSS/BDS-Versions](https://github.com/Bedrock-OSS/BDS-Versions)
+* [Bedrock-OSS/BDS-Versions](https://github.com/Bedrock-OSS/BDS-Versions)
+* [DeepL translator](https://deepl.com)
