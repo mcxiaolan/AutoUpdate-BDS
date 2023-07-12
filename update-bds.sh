@@ -17,11 +17,12 @@ wget -O BDS.zip https://minecraft.azureedge.net/bin-linux/bedrock-server-${LATES
 
 echo "正在解压最新版本的 BDS……"
 unzip -q -o BDS.zip && rm BDS.zip
+chmod +x bedrock_server
 clear
 echo "恢复备份文件……"
 unzip -o -d . ../backup.zip
 
-echo "恢复完毕！岚天呀随手搓的脚本(*/ω＼*)"
+echo "更新完毕！岚天呀随手搓的脚本(*/ω＼*)"
 echo "感谢 https://github.com/Bedrock-OSS/BDS-Versions 提供获取最新版本支持！"
 echo "岚天呀的博客: https://blog.ltya.top"
 exit
